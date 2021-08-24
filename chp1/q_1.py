@@ -20,6 +20,7 @@ def is_permutation(s1, s2):
 
   return s1 == s2
 
-def urlify(s,c):
-  s = s.replace(" ", '%20')
+
+def urlify(in_string, in_string_length):
+  return in_string[:in_string_length].replace(' ', '%20')
 
